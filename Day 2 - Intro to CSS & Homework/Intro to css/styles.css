@@ -1,0 +1,50 @@
+/* cascading style sheet */
+/* element selector */
+h1,
+h2 {
+  color: coral;
+  font-size: 12px;
+}
+
+p {
+  color: palegreen;
+}
+
+/* id selectors */
+#heading-red {
+  color: red;
+}
+
+#para-green {
+  color: aquamarine;
+}
+
+#box-element {
+  color: white;
+}
+#abc {
+  color: red;
+}
+
+/* class selectors */
+.box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+h1.red {
+  color: red;
+}
+
+div + p {
+  color: yellow;
+}
