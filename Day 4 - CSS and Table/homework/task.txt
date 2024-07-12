@@ -1,0 +1,21 @@
+Read and study the notes and the index.html and css files.
+practice yourself. Once have some knowledge then try and solve below mentioned problem.
+
+
+Task 1:- Create a Table with CSS for following data:-
+
+        PERIOD(am/pm)          MONDAY           TUESDAY         WEDNESDAY           FRIDAY          SATURDAY        SUNDAY
+
+        9300 - 1100            HTML/CSS         HTML/CSS        HTML/CSS            HTML/CSS        HTML/CSS        -
+        1110 - 1240            JavaScript       JavaScript      JavaScript          JavaScript      JavaScript      -
+        1240 - 1320            Lunch            Lunch           Lunch               Lunch           Lunch           -
+        1320 - 1450            NodeJS           NodeJS          NodeJS              NodeJS          NodeJS          -
+        1500 - 1630            MongoDB          MongoDB         MongoDB             MongoDB         MongoDB
+        1700 - 1900            Practice         Practice        Practice            Practice        Practice        -
+
+
+    Note:- 
+        - The Common Continuous values should be dealt with colspan & rowspan whereever applicable.
+        - NodeJS and MongoDB values should be tagged as Backend In One Separate column (LastOne).
+        - HTML/CSS JavaScript should be tagged as frontend in LastOne.
+        - All the rows should be tagged as FullStack after Sunday column in the middle on LastOne.

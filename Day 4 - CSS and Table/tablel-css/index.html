@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3 style="margin:0;">Table Element & CSS</h3>
+    <hr style="margin-bottom: 20px;">
+    <table>
+        <caption>Employees of Developer's Hub Company</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col span="2" class="personal-data">
+            <col>
+            <col>
+            <col span="2" class="yellow-highlight">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>&nbsp;</th>
+                <th>Age</th>
+                <th>Contact</th>
+                <th>Designation</th>
+                <th>Department</th>
+                <th>Business Unit</th>
+                <th>CTC(Lacs)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th colspan="2">Personal</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>E0001</td>
+                <td>Sachin T</td>
+                <th>&nbsp;</th>
+                <td>37</td>
+                <td>1234567890</td>
+                <td>Sofware Consultant</td>
+                <td>IT</td>
+                <td>Research and Development</td>
+                <td>3</td>
+            </tr>
+    
+            <tr>
+                <td>E0002</td>
+                <td>Rahul S</td>
+                <th rowspan="2">Team 1</th>
+                <td>31</td>
+                <td>2345678901</td>
+                <td>Software Consultant</td>
+                <td>IT</td>
+                <td>Research and Development</td>
+                <td>3</td>
+            </tr>
+    
+            <tr>
+                <td>E0003</td>
+                <td>Saurabh J</td>
+                <td>30</td>
+                <td>7283723723</td>
+                <td>Educator</td>
+                <td>IT</td>
+                <td>Learning and Development</td>
+                <td>3.5</td>
+            </tr>
+    
+            <tr>
+                <td>E0004</td>
+                <td>Amit R</td>
+                <td>&nbsp;</td>
+                <td>35</td>
+                <td>2345678923</td>
+                <td>Educator</td>
+                <td>IT</td>
+                <td>Learning and Development</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="final-row" colspan="8">Total</td>
+                <td>12</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
