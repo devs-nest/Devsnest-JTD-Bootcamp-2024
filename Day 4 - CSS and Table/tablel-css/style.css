@@ -1,0 +1,37 @@
+html {
+    font-family: sans-serif;
+}
+
+table {
+    border: 2px solid rgb(190 190 190);
+    border-collapse: collapse;
+    font-size: 0.8rem;
+}
+
+th,
+td {
+    border: 1px solid rgb(200 200 200);
+}
+
+td {
+    text-align: center;
+    padding: 5px 8px;
+}
+
+.personal-data {
+    background-color: lightgrey;
+    border: 2px solid grey;
+}
+
+.yellow-highlight{
+    background-color: yellow;
+}
+
+td#final-row {
+    text-align: center;
+}
+
+caption {
+    caption-side: bottom;
+    padding-top: 20px;
+}

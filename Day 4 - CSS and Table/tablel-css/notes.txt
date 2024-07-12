@@ -1,0 +1,26 @@
+// The Table Element and the CSS
+
+table:- Used to display related and structured information so as to have better visibility 
+    on the relation of the data and have other valuable insights over the data.
+
+td:- stands for Table Data. Acts as a container of data with in the table.
+
+tr:- stands for table row. This element of table groups all the columns together and makes 
+    sure that all columns behaves as expected.
+
+th:- stands for table header. This element provides us the visual and usable aspects and 
+    functionality of Heading.
+
+border-collapse:- With value as "collapse" merges the borders of child td with tr and table.
+    reference:- https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse
+
+rowspan:- Helps to merge two rows cells to be used for common information/data. 
+colspan:- Helps to merge two columns cells to be used for common information/data.
+
+col & colgroup:- It helps apply common behaviour to the entire column.
+
+thead, tbody, tfoot:- These are advanced tags which helps in accessibility. Therefore,
+    always use them in table element.
+
+
+
