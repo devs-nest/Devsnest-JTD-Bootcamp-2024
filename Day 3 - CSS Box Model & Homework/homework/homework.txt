@@ -1,0 +1,4 @@
+Task1:- Go through the code and notes properly. 
+Task2:- Apply Box Model knowledge to boxes.jpg in images folder. 
+    And come up with what is padding, margin, border and content.
+    Assume content is Mangoes within the boxes.

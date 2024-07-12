@@ -1,0 +1,66 @@
+// The Box Model:-
+    The CSS way of understanding and laying out the Boxes or elements. This is one of the most important and fundamental concept to understand how CSS works?.
+    - content:- the text or any other element(s) in the box.
+    - padding:- the area or gap created after the content and before the box boundary.
+    - border:- the outline of the box or element.
+    - margin:- the distance or gap between given or this element and other elements outside.
+
+
+ padding can have 1 to 4 values
+ examples:- padding: 10px;  // with one value => Applies to all 4 sides.
+            padding: 10px 20px; // with two values => The first value represents top & bottom of the box.
+                                                   => The second value is left & right of the box.
+            padding: 10px 20px 30px;    // with three values => The first value gets applied as top.
+                                                        => The second value gets applied as left & right.
+                                                        => The third value gets applied as bottom;
+            padding: 10px 20px 30px 40px;   // with four values it gets applied in TRBL fashion
+                                            => top right bottom left.
+                             Analogy to understanding purpose you can say or use acronym like TRBL.
+
+borders:- border: 1px solid;
+          border-bottom: 2px solid;
+          border-bottom-width: 2px;
+          border-bottom-color: black;
+          border-bottom-style: solid;
+
+margin: can have 1 to 4 values
+Examples:- margin: 10px;  // with one value => Applies to all 4 sides.
+            margin: 10px 20px; // with two values => The first value represents top & bottom of the box.
+                                                    => The second value is left & right of the box.
+            margin: 10px 20px 30px;    // with three values => The first value gets applied as top.
+                                                        => The second value gets applied as left & right.
+                                                        => The third value gets applied as bottom;
+            margin: 10px 20px 30px 40px;   // with four values it gets applied in TRBL fashion
+                                            => top right bottom left.
+                             Analogy to understanding purpose you can say or use acronym like TRBL.
+
+
+Block Box & the Inline Box:-
+    -- Two types of boxes, these defines how the boxes behave with respect to eachother in a page flow.
+
+    Outer Display Type:- impacts or effects how the outer elements are going to be laid out
+        in the container/parent box.
+        -- block => laws of behaviour
+            - The box starts or break on to the new line.
+            - The width and height is respected.
+            - The padding, margin, border gets applied and causes other elements to shift away.
+            - When there is no width is provided or applied on this box then it tries to cover up the
+              parent/container space. In most cases, it occupies the entire avaiable space in container.
+            examples:- p, div, h1 etc.
+            
+        -- inline => laws of behaviour
+            - The box doesn't break on to the new line.
+            - The width & height is not going to impact the layout.
+            - The top & bottom for padding, margin & border will not cause other elements to move away.
+            - The left & right for padding, margin & border will cause other inline elements to move away.
+            examples:- span, anchor, em, strong etc.
+    Inner Display Type:-
+        The default beviour unless explicitely overridden by other display values for block and inline both.
+        Means the element's default display value is respected with in the box.
+        This is called as natural flow or page flow etc.
+
+CSS Units:- px, em, rem.
+        px:- pixels on to the screen.
+        em:- Relative unit, from parent element/box.
+        rem:- Relative unit, from root element which is html element.
+
