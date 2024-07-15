@@ -1,0 +1,165 @@
+// JavaScript
+
+
+What is JavaScript?
+History or Background?
+Why we need JavaScript?
+
+
+programming:- Programming is devicing a solution to a problem in a step by step manner from nothing to have a complete solution
+    to a problem. So this is about brain storming and thoughtfully creating a solution.
+    The programming in the field of computers is Software Programming.
+
+code:- The code is the instructions put together as a output of programming so as to be executed.
+
+program:- collection of code that solves problem.
+
+
+    JavaScript is a general purpose programming language. This includes providing a behaviour for action on web sites, data entry 
+    in to th forms and making user interface interractive to User.
+
+    Brendan Eich created JavaScript.
+    Hired by Netscape, in 1995 JavaScript was created for Netscape Navigator 2.(browser).As soon as JS was released in september 1995
+    it became successful and Microsoft decided to support JavaScript in Internet Explorer. Internet Explorer 3 with JS support in the
+    name of JScript was release in sept. 1996 by Microsoft.
+
+    In 1996, Netscape started collaborating with ECMA 262 to create a standard for standardization of JS programming language.
+    This is called as ECMAScript.
+
+    ECMAScript is independent of host which means it is Core part of JS which has to be supported by any Host who claims to 
+    have a support for JS language. 
+    Examples of host are :- Browsers like Firefox, Chrome, Edge, Safari etc.
+                            NodeJS, Deno etc.
+
+
+    
+    statement:- Combination of words, numbers and special characters that form a valid piece of code.
+
+    example: 3;
+             5;
+             a = b + 5;
+
+    
+    literals:- When directly values are used in a code these are literals.
+        ex:- 3, 5, 6 etc // numeric/number literals
+            "Subodh", "JavaScript", "Today is Monday." etc. // string literals
+            true, false // are boolean literals.
+
+
+
+
+    Values & Types:-
+        Number:- 3;, 5, 1000;
+            Ex:-
+                Number("3"); // this will parse the string text with value 3 to a number.
+                Number("3").toFixed(2); // it will parse the string and also make it a fraction/deciman with precision 2;
+                                    // 3.00;
+
+                Number("45.0459").toFixed(2);
+                Number('duiu'); // it will give as NaN as result.
+
+            NaN stands for Not a Number provided by Number API in standard JS.
+
+        String:- General text that we use in day to day life.
+                 "My name is Subodh";
+                 "I am a software engineer."
+                 "I like Programming."
+
+                 Strings are represented by double quotes or single quotes
+                 Ex:-   "This is a sample valid string."
+                        'This is a sample valid string'
+                
+                    Invalid Ex:- "This is invalid string';
+                                'This is also invalid string";
+
+        Boolean:- true and false are two values that represents yes and no.
+                For example:- Is JavaScript a programming language?
+                              Yes.
+                              Yes will be represented by true. Which is a type of a Boolean.
+    
+        null:- null represents anything which doesn't have a value.
+        undefined:- undefined represents anything which is not defined. Neither value not memory.
+                That Doesn't exist in JS.
+
+
+    Variables:- Variables are containers which helps to retain a value till our code needs it.
+        Reusability of values and manipulation of those values is possible with of variables.
+        Ex:- var a  = 7;
+
+        There are three ways you can create variables in JS:-
+            - var - this is default way of creating variables and since the first version it is available
+            - let - Anothe modern way of defining variables. it helps also create a block scope.
+            - const - is used to define to define a constant variable which is not suppose to change after first assignment.
+
+    Identifiers:- 
+        All different types of names including variable names, parameter names, function names are Identifiers in JS.
+
+        JavaScript is a case-sensitive language.
+        Which means "Subodh" and "subodh" are two different indentifier.
+
+        Ex:- var subodh = "Subodh with S capital";
+             var Subodh = "SUBODH with all capital";
+    
+
+        All JS identifiers is a combination of 
+            1. A-Z, 
+            2. a-z, 
+            3. $, 
+            4. _ 
+            
+            Let's call the 4 lines as group1.
+            
+            The identifier names can start with group1 and can have 0-9 and any combination of group1.
+
+            var firstName = "Subodh";
+            var SecondName = "Sant";
+            var $Max_Capacity = 100;
+            var _anotherFirstName = "something";
+            var FirstName = "SUBODH";
+
+            var f_2irstName = "Subodh";
+            var SecondName3 = "Sant";
+            var $Max_Capacity4 = 100;
+            var _a7notherFirstName = "something";
+            var FirstName66 = "SUBODH";
+
+
+            // Wrong or invalid variable names:-
+                var 0myFirst = "Subodh";
+                var 9TeeThousand = 900000;
+
+
+
+Operators:-
+    Expression:- An expression is any valid piece of code that evaluates to a value.
+
+        Ex:-  1.  2;
+              2.  3;
+              3.  7;
+              4.  "Just anything";
+              5.   3 + 7;
+              6.   5 + 4;
+
+              7.  a = b + 100;
+              8.  var someVar = a - 7;
+
+            There are two of expressions - 
+                - pure expression, which doesn't modify anything outside it.
+                    without side effect. 
+                - With Side effect, which modifies outside variable.
+
+        
+        An Operator is used to work upon literals or variables to get desired result.
+
+        Two categories are there Binary and Unary Operator
+
+        Binary operator structure of expression is like :- operand1 operator operand2;
+        Unary operator structure of expresion is like :- operand operator 
+                                                    or operator operand. 
+
+        For ex:- a + b; 
+                3 + a;
+                 var someVar = a - 7;
+
+    
+        
