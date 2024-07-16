@@ -1,0 +1,214 @@
+// JavaScript
+// Day 2 of JS
+
+Operators:-
+    Expression:- An expression is any valid piece of code that evaluates to a value.
+
+        Ex:-  1.  2;
+              2.  3;
+              3.  7;
+              4.  "Just anything";
+              5.   3 + 7;
+              6.   5 + 4;
+
+              7.  a = b + 100;
+              8.  var someVar = a - 7;
+
+            There are two of expressions - 
+                - pure expression, which doesn't modify anything outside it.
+                    without side effect. 
+                - With Side effect, which modifies outside variable.
+
+        
+        An Operator is used to work upon literals or variables to get desired result.
+        An operator combines 1 or more operands, the operands could be higher precidence
+        operator or one of the basic expression.
+
+        Two categories are there Binary and Unary Operator
+
+        Binary operator structure of expression is like :- operand1 operator operand2;
+        Unary operator structure of expresion is like :- operand operator 
+                                                    or operator operand. 
+
+        For ex:- a + b; 
+                3 + a;
+                 var someVar = a - 7;
+
+        When you have expression like:-
+            operand1 operator operand2 then it is called as infix operator.
+                ex:- a + b; 
+                    3 + a;
+
+        When you have expression like:-
+            operator operand then this is called as prefix operator
+                ex:- ++3
+                
+            operand operator then this is called as postfix operator
+                ex:- 3++
+
+    
+const var1 = 5; // number type
+const var2 = 7; // number type
+Comparison Operators:-
+    Compares the value of operands based on their logical value and return result
+    as true if value are equal.
+
+
+    Operator                Description                         usage
+-----------------------------------------------------------------------------------       
+    Equals operator         The equals operator                 var1 == 5;  // true
+    (==)                    compares the value of two           var1 == "5";// true
+                            operands. If the type are 
+                            not equal then attempts 
+                            to convert toappropriate type
+                            before comparison.
+                            Returns true if value are 
+                            found to be equal 
+    
+    Not Equals operator     The not equals operator             var1 != 6  // true
+    (!=)                   returns true if the both             var1 != 5  // false
+                            types are same and value is         var1 != "5" // false
+                            unequal
+    
+    Strict Equals           This operator checks for the        var1 === 5;     // true
+    operator(===)           type if found same then it          var1 === 7;     // false
+                            compares the value and found        var1 === "5";   // false
+                            equal then returns true.
+                            Means, if type is different
+                            or value is different then
+                            its going to return false.
+    
+    Strict Not Equals       analogus to Strict Equals Just      var1 !== var2;  // true
+    (!==)                   value should bot be equal.          100 !== var1;   // true
+                                                                5 !== var1;     // false 
+    
+    Greater than            returns the true value if           var1 > 3;   // true
+    (>)                     operand1 is greater than            5 > 6;  // false
+                            operand2                            var1 > var1; // false
+
+
+    Greater than equals     returns the true value if            var1 >= 7;   // false
+    (>=)                    operand1 is greater or              var2 >= 7;   // true
+                            equal to operand2                   var2 >= 0;  // true
+
+    
+    Less than operator      returns true if the value           var1 < 10;  // true
+    (<)                     of left operand is less than        var1 < var2; // true
+                            right operand.                      1 < 100;    true
+                                                                100 < var1; false
+
+    Less than equal to      return true if left side value      var1 <= 10;  true;
+    operator(<=)            is less than or equal to the        var1 <= 5;  // true;
+                            right side value.                   var1 <= 6;  // false;
+    
+
+
+let var3 = 10;
+let var4 = "100";
+
+Arithmetic Operators:-
+    Arithmetic operators are used to work with numerical values of literals or
+    variables.
+    Most basic operators of arithemetic are the addition operator(+),
+    subtraction(-), multiplication(*) and division operator(/).
+
+
+    Operator            Description                                 Example
+-------------------------------------------------------------------------------------
+    Remainder           returns the result remaining                10 % 5; // 0
+    operator(%)         undivided or the remainder of               14 % var1; // 4; 
+                        division or operand1 / operand2
+
+    Increment           this operator if used as prefix             ++3;
+    operator            (++operand) then it increases               It is going to increase
+    (++)                the value of the operand and return         the value of 3 to 4 and             
+                        the value.                                  then returns the value 4.
+                        Whereas, if it used as postfix              
+                        (operand++) then it returns the
+                        value of operand and then increases
+                        the value.
+    
+    Decrement           analogues to Increment operator but            --7; //6;
+    operator            instead of increasing it decreases the         8--; // 8;
+    (--)                value                                           later it will   
+                                                                        apply the operator.
+
+    Unary Negation      It negates the value of the operand.            -var1;  // -5
+    operator(-)                                                         -10; // -10;
+
+    Unary Plus          It attempts to convert the operand              +var3; 
+    operator(+)         to a positive integer                           +("3"); // converts to 3;
+                                                                        +var4;  // 100 number instead 
+                                                                        of string.
+
+    Exponentiation      It calculates base to the exponent              2 ** 3; // 8;
+    operator(**)        power.(base ** exponent)                        5 ** 2; // 25;
+
+
+
+
+Logical Operators:-
+    When logical operators are used with boolean operands it returns a boolean
+    But when they are used with non-boolean it follows certain rules to return
+    the operand's value. That is the reason sometimes it is also called as 
+    "value selection operators".
+
+
+    Operator            Explaination
+----------------------------------------------------------------------------    
+    Logical AND         if expr1 can be converted to false then
+    operator(&&)        return expr1 otherwise expr2. When used
+                        with boolean values and both the operands
+                        are true then it returns true otherwise
+                        false.
+    Logical OR          if expr1 can be converted to true then 
+    operator(||)        return expr1 otherwise expr2. When used with
+                        boolean values, and either of operands is true
+                        then it returns a true otherwise false.
+
+                        Examples
+                        const l1 = true && true;    // true;
+                        const l2 = true && false;   // false;
+                        const l3 = false && true;   // false;
+                        const l4 = false && false;  // false
+
+                        const l5 = "cat" && "bird"; // bird;
+                        const l6 = "dog" && "cat"; // cat;
+                        const l7 = 0 && "Subodh";   // 0;
+                        const l8 = 0 && "";     //  0;
+                        const l9 = [] && 0; //  0;
+                        const l10 = "" && " ";   //
+
+                        const l11 = true || true;   // true
+                        const l12 = true || false;  //true
+                        const l13 = false || true; // true
+                        const l14 = false || false; // false;
+
+                        const l15 = "cat" || "dog";     // cat
+                        const l16 = "subodh" || "l16";  // subodh
+                        const l17 = " " || ""; // " "
+    
+    Nullish             returns expr1 if it is neither null
+    Coalescing          nor undefined otherwise returns expr2
+    Operator(??)
+
+                        Examples:-
+                        const nc1 = null ?? 10;             // 10;
+                        const nc2 = undefined ?? "Subodh"   // "Subodh"
+
+                        const nc3 = 45 ?? 90;   // 45
+
+    Not operator        it is going to return false if it's     
+    (!)                 operand can be converted to true
+                        otherwise.
+                        It makes true or truish value as false.
+                        It makes false or falsish value as true.
+
+                        Examples:-
+                        const no = "something";
+                        !no;    // false
+                        !("");  // true
+                        !(" "); // false
+                        !false; // true
+                        !true;  // false
+                        ![];    // false

@@ -1,0 +1,5 @@
+Task1:- Please go through the notes and 
+    try and think on examples of all the Operators that we learned today.
+    Think on more examples on your own and try them in the browser console.
+
+    
