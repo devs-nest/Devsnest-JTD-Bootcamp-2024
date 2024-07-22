@@ -1,0 +1,32 @@
+body {
+  font-size: 1.5rem;
+}
+.container {
+  max-width: 500px;
+  margin: 200px auto;
+  /* border: 1px solid; */
+  padding: 16px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+}
+
+#main-heading {
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+}
+
+#percentage {
+  margin-top: 16px;
+}
+
+#calculate {
+  display: inline;
+  margin-top: 16px;
+  padding: 8px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+}
