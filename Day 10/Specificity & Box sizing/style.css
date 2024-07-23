@@ -1,0 +1,47 @@
+/* 100 specificity value */
+#id-level {
+  color: royalblue;
+}
+/* 010 */
+.class-level {
+  color: coral;
+}
+
+/* 001 */
+p {
+  color: aqua;
+}
+
+/* 011 */
+p.class-level {
+  color: darkgreen;
+}
+
+/* when two or more rules have the same specificity
+in that case the rule which is defined later takes precedence */
+
+/* 011 */
+p.red-color {
+  color: red;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+}
+
+.box.red {
+  background-color: red;
+}
+.parent {
+  box-sizing: border-box;
+  padding: 16px;
+}
+.child {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.box.blue {
+  background-color: royalblue;
+}
