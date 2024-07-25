@@ -1,0 +1,74 @@
+// JavaScript + HTML
+
+// Input Elements:-
+
+    Input elements helps websites to take data input from the consumer of the webpage.
+
+1. Input type Text:-
+    Defines an element to take single line of text from User.
+    <input type="text">
+
+2. Input type Password:-
+    Defines an element to take input of sensitive data like password.
+    <input type="password">
+
+3. Input type submit:-
+    Defines a Button like control which allows user to use mouse actions like click or keyboard actions like return (enter).
+    This control's usefulness is with form element.
+    <input type="submit">
+
+4. Input type reset:-
+    Defines a Button like control which allows user to reset the form. It's usefulness is with form element.
+
+5. Input type radio:-
+    Defines a set of input options out of which one becomes the value of the control.
+     <input type="radio" value="CSS" name="favLanguage">
+
+6. Input type checkbox:-
+    Defines a set of option out of which multiple could be selected as values.
+
+7. Input type button:-
+    Defines a button like control.
+
+8. Input type color:-
+    Defined a control for user to select a color out of palette.
+
+
+
+// The form element
+    It defines a designated group of controls which is suppose to take input from the user or consumer of this webpage/webform
+    and this data can then be submitted or sent to server or to web request handler.
+    <form action="" method="GET"></form>
+
+
+// Diff. between id and name attribute
+
+ Id:- This is mainly used to give unique identification to the element. Used mostly in CSS and JavaScript for web UI frontend.
+ Name:- This attribute is used mainly in the form element to form a valid key value pair for given element. This holds the value
+    of the element and used by the web server action handler or API handler.
+
+
+// Error Handling/Exception Handling
+
+    The scenarios for errors that may occur are called Exceptions in coding context so as to act on the occurance of those 
+    errors or handling the exceptions at run-time.
+    In JavaScript, we can use try catch block to handle the runtime exceptions.
+
+    try statement
+    catch statement
+    finally statement
+
+    3 ways of writing
+
+        try...catch
+        try...finally
+        try...catch...finally
+
+    when does finally get executed?
+
+    - After all the statements within the try block gets executed.
+        The next thing is finally block code.
+    - After all the statements in Catch block in case of error in try block
+        The next thing is finally block code.
+    - Before all the control flow statements like return, break, continue, throw etc gets executed within try and catch.
+

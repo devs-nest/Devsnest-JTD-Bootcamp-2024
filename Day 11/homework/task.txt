@@ -1,0 +1,11 @@
+Task 1:- Create a login form with following details:-
+    - Field 1:- UserName
+    - Field 2:- Password
+    - Submit Button
+    - Reset Button
+
+    Note:- 
+        - On Click of Submit username and password values should go to https://www.w3schools.com/action_page.php
+        - On Click of Reset the username and password both values should get empty.
+        - The form should name Login Form.
+        - The form should be in the middle of the screen.
