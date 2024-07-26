@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2> Student Registration Form</h2>
+
+        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+            <div class="control-group">
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" placeholder="Your first name" onkeyup="onFirstNameKeyUp(event)">
+                <span id="fnameError"></span>
+            </div>
+            <div class="control-group">
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Your last name">
+            </div>
+
+            <div class="control-group">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Your Email id" onkeyup="onEmailKeyUp(event)">
+                <span id="emailError"></span>
+            </div>
+
+            <div class="control-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="Your phone number" onkeyup="onPhoneKeyUp(event)">
+                <span id="phoneError"></span>
+            </div>
+
+            <div class="control-group">
+                <label for="dob">Date of birth:</label>
+                <input type="date" name="dob" id="dob" onchange="onDOBChange(event)">
+                <span id="dobError"></span>
+            </div>
+
+            <div class="control-group">
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <div class="control-group">
+                <label for="states">State:</label>
+                <select name="state" id="states">
+                    <option value="" selected="selected">Please select a state</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="city">City:</label>
+                <select name="city" id="cities">
+                    <option value="" selected="selected">Please select a city</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Register" onclick="onSubmitClick(event)">
+            
+            <div class="control-group">
+                <span id="submitError"></span>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

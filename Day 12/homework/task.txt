@@ -1,0 +1,7 @@
+Task 1:- Please proceed with validation based on what we learned today and provide validation for following fields:-
+    - Last Name:- Rules similar to first name.
+    - Gender:- Atleast one should be selected.
+    - State:- Value should exist.
+    - City:- Value should exist. Also the value must correspond to state value.
+
+    

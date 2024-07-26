@@ -1,0 +1,34 @@
+// JavaScript + HTML
+
+// Error Handling/Exception Handling
+
+    The scenarios for errors that may occur are called Exceptions in coding context so as to act on the occurance of those 
+    errors or handling the exceptions at run-time.
+    In JavaScript, we can use try catch block to handle the runtime exceptions.
+
+    try statement
+    catch statement
+    finally statement
+
+    3 ways of writing
+
+        try...catch
+        try...finally
+        try...catch...finally
+
+    when does finally get executed?
+
+    - After all the statements within the try block gets executed.
+        The next thing is finally block code.
+    - After all the statements in Catch block in case of error in try block
+        The next thing is finally block code.
+    - Before all the control flow statements like return, break, continue, throw etc gets executed within try and catch.
+
+
+// Validation
+
+    Generally happens for two things:-
+        - Data Validation
+        - Functionality Validation.
+    
+    We use validation to make sure the behaviour of control or UI is per the agreed upon rules.
