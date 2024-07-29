@@ -1,0 +1,8 @@
+// The quiz app
+
+// Have a series of question being asked to the user.
+// Each question will have text and the multiple answers out of which user has to select one.
+// Button to move to next question.
+// Button to move to previous question.
+// Button to Submit the quiz.
+// Application should display the results on the screen.

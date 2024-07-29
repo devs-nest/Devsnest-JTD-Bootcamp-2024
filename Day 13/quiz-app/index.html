@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-bar">The Quiz App</div>
+    <div class="quiz-container">
+        <div class="quiz">
+            <div class="slide">
+                <div class="question">This is a sample question?</div>
+                <div class="answers">
+                    <div class="answer">
+                        <input type="radio" name="question1" id="a" value="a: Sample Ans1 abc">
+                        <span>a: Sample Ans1 abc</span>
+                    </div>
+                    <div class="answers">
+                        <div class="answer">
+                            <input type="radio" name="question1" id="b" value="a: Sample Ans2 abc">
+                            <span>a: Sample Ans2 abc</span>
+                        </div>
+
+                        <div class="answers">
+                            <div class="answer">
+                                <input type="radio" name="question1" id="c" value="a: Sample Ans3 abc">
+                                <span>a: Sample Ans3 abc</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prev-next-btn">
+            <button class="previous-btn" onclick="onPreviousClick()">Previous</button>
+            <button class="next-btn" onclick="onNextClick()">Next</button>
+        </div>
+        <div class="submit-wrapper">
+            <button class="submit-btn" onclick="onSubmitClick()">Submit</button>
+        </div>
+
+        <div class="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+Task #1:-
+    In the Quiz App, you need add following functionality:-
+    - Add a reset button which going to reset the functionality to initialized state
+        (just like you have open the page first time)
+    - This reset button should be added near Submit button.
+    - This reset button should get enabled as soon as user submits the quiz.
+    - On Reset click the state should get back to original. So that user can play the quiz again.
