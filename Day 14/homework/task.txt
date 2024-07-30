@@ -1,0 +1,2 @@
+Task #1:- Understand the code of Quiz App, reset button.
+Task #2:- Work with github by create your own project and try to simulate multi member working.
