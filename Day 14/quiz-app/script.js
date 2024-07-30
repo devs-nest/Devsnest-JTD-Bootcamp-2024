@@ -67,7 +67,11 @@ function onPreviousClick() {
 
 function onSubmitClick() {
     quizSubmitted = true;
-    const correctAnswers = answeredByUser.filter(i => i.isCorrect == true);
+    const correctAnswers = answeredByUser.filter(function (value, index) {
+        if (value.isCorrect == true) { 
+            return value;
+        }
+    });
 
     const displayText = `${correctAnswers.length} of ${questions.length} are correct.`;
     resultsElement.innerText = displayText;
@@ -162,7 +166,11 @@ function buildQuiz() {
 function onAnswerClick(ev) {
     const questionId = ev.target.name.match(/(?<=question).*/gi)[0];
 
-    const existingAnswer = answeredByUser.find(i => i.questionId == questionId);
+    const existingAnswer = answeredByUser.find(function (value, index) {
+        if (value.questionId == questionId) {
+            return value;
+        }
+    });
 
     const answeredObj = existingAnswer ?? { questionId: questionId };
     answeredObj.answerChosen = ev.target.id;

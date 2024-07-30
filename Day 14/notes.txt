@@ -1,3 +1,22 @@
+- General branching structure
+main
+    develop 
+        feature1
+            haritha.h.feature1
+            anotherdev.feature1
+        feature2
+            haritha.h.feature2
+
+
+There are environment for Deployment:-
+
+    - Development environment (https://dev.internalproductname.com)
+    - QA(Quality Assurance) environment (https://qa.internalproductname.com)
+    - UAT(User Acceptance Test) environment (https://uat.realproductname.com)
+    - Production environment(https://realproducname.com)
+
+
+
 // Source Control:-
 
     Source Control or Version Control is a software development practice to track each and every change made to the
