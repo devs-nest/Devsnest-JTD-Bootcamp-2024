@@ -1,0 +1,88 @@
+// Source Control:-
+
+    Source Control or Version Control is a software development practice to track each and every change made to the
+    source code. The software which helps us to manage this is called Source Control Manager or Version Control Manager
+
+    The SCM/VCM helps track all the changes at once place there by creation a version for every single set of change.
+    Which means that it maintains a history of all the changes/versions.
+
+    What are the benefits:-
+    - Collaboration
+    - Sharing of files/source
+    - Maintening the version history.
+
+
+    Advantages from Architect/Managerial perspective
+    - Quality:- With the help of code reviews.
+    - Acceleration:- In the Project Implementation. By enabling multiple team members to work on the Project
+    parallely and asynchronously. This helps take up multiple features and with the help of DevOps, CI/CD change
+    be setup for frequent and planned deployments.
+    - Visibility:- Entire team can see what is going on with the project source code because it is acting like single
+        source of truth. Thereby increasing transparency.
+
+
+    Following are the types of Source Control/Verson Control:-
+    - Localized:- Maintaining all the changes locally and sent as one to a database or server. At any given point 
+        in time only version available to the Team.
+    - Centralized Source Control Manager(CSCM):- It is having a central server accessible to the team where collabaration
+    an happen and it tracks all the changes done to the central server.
+    - Distributed Source Control Manager(DSCM):- Apart from Central server, it enables the developer to have his own copy of
+    repository and all versions which enables him to work from multiple computers, offline and asynchronously.
+    Distributed architecture makes branching and merging seamless. It's very light weight it terms of branching and it 
+    encourages to have your own feature/development branch.
+
+    Examples:-
+        CSCM:- Subversion
+        DSCM:- git, mercurial.
+
+* Creator of git:- Linus Torvalds.
+
+
+bitbucket:- It is also a service based on git source control manager.
+github:- Service which incorporates git DSCM. And provides APIs and UI to manage code bases.
+
+
+Git Basic Commands:-
+
+    - git init  // initializes the local git respository
+    - git clone // it helps copy/clone the remote repository to local system.
+    - git add   // it brings all the changes in the current branch to Staging area/space.
+    - git commit    // it commits/create a version in the local respository for the working branch.
+    - git branch    // working space for developer, which is light weight because it doesn't make a fully copy of the project by just keeping a link to original file.
+    - git pull  // pulls the latest changes for the current branch from the remote respository.
+    - git push  // push, send Commits/Versions created in the local branch and repository to remote server respository.
+    - git merge // Merges changes from one branch to another.
+    - git status // to check the status of current branch
+    - git checkout // to switch branch.
+
+
+Installing git scm:-
+    - Go to website https://git-scm.com/
+    - Download for your operating system.
+    - install the application.
+
+
+For Linux installation
+    Ubuntu/debian:- sudo apt-get install git
+    Fedora:- sudo dnf install git
+
+
+
+// The Reset Functionality:-
+
+    - We have add a new button with text Reset near the submit button.
+    - On Click of this button, we want the quiz to come back to original state.
+
+
+*************************************************************************************
+
+
+
+// The quiz app
+
+// Have a series of question being asked to the user.
+// Each question will have text and the multiple answers out of which user has to select one.
+// Button to move to next question.
+// Button to move to previous question.
+// Button to Submit the quiz.
+// Application should display the results on the screen.
