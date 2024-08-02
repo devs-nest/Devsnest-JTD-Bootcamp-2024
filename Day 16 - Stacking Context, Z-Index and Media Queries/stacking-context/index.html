@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacking context</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Stacking Context and Z-Index</h2>
+    <p class="normal">This is a static positioned para</p>
+    <p class="relative-pos">This is a relatively positioned para</p>
+    <p class="relative-pos">This is another relatively positioned para</p>
+    <p class="absolutely-pos">This is a absolutely positioned para</p>
+    <p style="color:brown" class="absolutely-pos">This is another absolutely positioned para</p>
+
+
+    <section class="box relative bg-black">
+
+        <section class="box absolute bg-red">
+        </section>
+        <section class="box absolute bg-blue"></section>
+    </section>
+</body>
+
+</html>

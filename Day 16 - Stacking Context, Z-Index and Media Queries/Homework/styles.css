@@ -1,0 +1,34 @@
+.card {
+  height: 400px;
+  width: 300px;
+  border: 2px solid hsl(0, 0%, 0%);
+  border-radius: 16px;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.top-left-number {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.bottom-right-number {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+
+.central-element {
+  position: absolute;
+  inset: 0;
+  height: 62px;
+  width: 62px;
+  margin: auto;
+  font-size: 4rem;
+}
+
+.text-red {
+  color: hsl(355, 70%, 50%);
+}

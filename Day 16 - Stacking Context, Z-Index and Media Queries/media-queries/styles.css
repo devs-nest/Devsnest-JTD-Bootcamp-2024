@@ -1,0 +1,42 @@
+h2 {
+  font-size: 4rem;
+}
+
+@media print {
+  body {
+    background-color: gray;
+    color: whitesmoke;
+  }
+}
+
+.heading::before {
+  position: relative;
+  top: -20px;
+  font-size: 0.5rem;
+  background-color: palegoldenrod;
+}
+
+@media screen and (width <= 500px) {
+  body {
+    background-color: greenyellow;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* @media screen and (orientation: landscape) {
+  body {
+    background-color: palevioletred;
+    color: whitesmoke;
+  }
+  .heading::before {
+    content: "Landscape";
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .heading::before {
+    content: "Portrait";
+  }
+} */

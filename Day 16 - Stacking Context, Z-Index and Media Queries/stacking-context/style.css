@@ -1,0 +1,45 @@
+.normal {
+  color: coral;
+}
+.relative-pos {
+  position: relative;
+  color: green;
+  top: -30px;
+}
+
+.absolutely-pos {
+  position: absolute;
+  top: 0;
+  color: palevioletred;
+}
+
+.box {
+  padding: 26px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+}
+.bg-black {
+  background-color: #000;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  top: 50px;
+}
+
+.bg-red {
+  background-color: hsl(350, 50%, 60%);
+  height: 100px;
+  width: 50px;
+  top: 50px;
+  z-index: 2;
+  left: 16px;
+}
+.bg-blue {
+  height: 100px;
+  width: 50px;
+  background-color: #190ee5;
+}
