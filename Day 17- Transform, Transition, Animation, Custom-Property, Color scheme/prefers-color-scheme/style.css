@@ -1,0 +1,19 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --back-color: hsl(40 100% 100%);
+    --forground-color: hsl(0 0% 0%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --back-color: hsl(0, 0%, 0%);
+    --forground-color: #fff;
+  }
+}
+
+:root {
+  background-color: var(--back-color);
+  color: var(--forground-color);
+  transition: background-color 0.8s ease-in;
+}

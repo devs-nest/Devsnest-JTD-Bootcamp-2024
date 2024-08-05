@@ -1,0 +1,37 @@
+/* custom properties have a scope
+they can only be accessed within the scope
+they are available at the place where they are defined
+as well as the descendents/child elements */
+
+:root {
+  --back-color: hsl(40 70% 40%);
+  --forground-color: hsl(0 0% 0%);
+  background-color: var(--back-color);
+  color: var(--forground-color);
+}
+
+.dark-theme {
+  --back-color: #000;
+  --forground-color: #fff;
+}
+
+.blue-theme {
+  --back-color: hsl(219, 50%, 30%);
+  --forground-color: hsl(0, 5%, 72%);
+}
+.with-custom-property {
+  /* defining variable or custom property */
+  --text-color: hsl(250 50% 60%);
+
+  background-color: var(--back-color);
+}
+.with-custom-property h2 {
+  color: var(--text-color);
+}
+
+section h2 {
+  color: var(--text-color);
+}
+section p {
+  background-color: var(--back-color);
+}
