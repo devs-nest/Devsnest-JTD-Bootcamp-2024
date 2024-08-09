@@ -1,0 +1,42 @@
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: hsl(350, 50%, 50%);
+  /* transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-delay: 3s; */
+  /* transition: transform 500ms linear 200ms, background-color 500ms linear 200ms; */
+  animation: rotate 0.5s linear 9;
+}
+
+/* you can specify all to trigger transition on all property changes */
+
+.rotate {
+  transform: rotate(45deg);
+}
+/* .box.scale:hover {
+  transform: scale(1.5, 0.5);
+} */
+
+.translate:hover {
+  transform: translate(120px, -20px) scale(125%, 50%);
+  background-color: hsl(274, 70%, 50%);
+}
+
+.skew {
+  transform: skew(15deg);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+    border-radius: 0;
+    background-color: hsl(350, 50%, 50%);
+  }
+  to {
+    transform: rotate(360deg);
+    border-radius: 50%;
+    background-color: hsl(274, 70%, 50%);
+  }
+}

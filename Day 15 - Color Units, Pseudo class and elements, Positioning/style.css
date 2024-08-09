@@ -1,0 +1,148 @@
+h2 {
+  color: #ffaabb;
+}
+
+/* hexadecimal number system
+digits 0-9
+Alphabets A-F
+
+rgb values are represendted in hex number system
+00 - first two digits are for color red
+00 - next two are green
+00 - blue */
+
+.rgb {
+  color: rgb(225 218 19 / 0.8);
+  background: rgb(0, 0, 0);
+}
+
+/* 0-255 shade of red
+0-255 shade of green
+0-255 shade of blue */
+
+/* opacity */
+
+/* the value of opactity is between 0 and 1
+or you can make use of percentage 0% - 100% */
+
+.hsl {
+  color: hsl(359, 30%, 50%);
+}
+
+/* hsl hue saturation lightness */
+/* hue - value in degree (0 - 359)
+saturation - determines the vibrancy of the color or how grayed out it it
+lightness - how light or dark the color should be */
+
+a {
+  text-decoration: none;
+}
+
+/* pseudo means false or not real */
+
+/* pseudo classes allow you to write selectors for  different states of an element
+
+different states
+- hover
+- active
+- visited */
+
+a:hover {
+  text-decoration: underline;
+}
+a,
+a:visited {
+  color: royalblue;
+}
+
+input:focus-visible {
+  outline: 2px solid greenyellow;
+}
+
+/* psuedo elements */
+/* these are created using css and not html that is why they are known as pseudo*/
+
+/* .real-element::after {
+  content: "❤️";
+  background-color: coral;
+  font-size: 2rem;
+  border: 2px solid;
+} */
+.real-element::before {
+  content: "\263A";
+  margin-right: 8px;
+  color: blue;
+}
+
+/* relative - from where it is going to appear by default,
+it will shift by that many units that we specify to top,
+right,
+bottom and left  */
+#relative-para {
+  position: relative;
+  top: 0;
+  /* left: 20px;
+  top: 20px; */
+  /* right: 20px;
+  bottom: -20px; */
+}
+
+/* // absolutely positioned elements */
+
+/* tries to position itself with respect to its nearest 
+relatively positioned ancestor
+if no relatively positioned ancestor/parent is found
+it considers the body to be its parent and will position 
+itself W.R.T to the body element */
+
+#abs-para {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  background-color: #ffaabb;
+}
+
+/* inset 0 is the same as saying top: 0,bottom:0 right:0 left:0 */
+
+.relative-parent {
+  position: absolute;
+  border: 1px solid;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  padding: 0;
+  inset: 0;
+}
+
+/* fixed positioned elements
+try to position themeseleves w.r.t the viewport */
+
+article.fixed {
+  position: fixed;
+  bottom: 100px;
+  left: 200px;
+}
+
+section.container {
+  max-height: 100px;
+  border: 4px solid;
+  overflow: auto;
+}
+section.container p {
+  margin: 32px;
+}
+/* sticky positioned element will try to position itself based on it's nearest
+scorlling ancestor */
+/* behaves like a static element
+but when scrolling starts it will behave like a fixed position element w.r.t to it nearest scrolling ancestor */
+#para-3 {
+  position: sticky;
+  top: 0px;
+}
