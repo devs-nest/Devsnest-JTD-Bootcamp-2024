@@ -1,0 +1,94 @@
+// JavaScript
+
+    JavaScript Engine:- 
+
+        Code of JS => JS Engine => Executable Code
+
+        var a = 3;
+
+        - Tokenization/Lexing
+        - Parsing
+        - Generating Executable Code
+
+    Where are the variables stored?
+    How it is made available to the programming code that we write?
+
+    For Ex:- 
+        var a  = 3;
+        console.log(a);
+
+    
+    Scope:- It is the set of rules by which the variables are created in JS and made available to the currently 
+        executing code.
+
+        By default, when we write a code in a file which is not in a function gets executed at global level and whatever
+        data gets created and whatever the functions get created goes to global scope.
+
+
+    Nested Scope:- For every function there is one scope created.
+        So scopes are creaed for every function and variable look-up happeps from innermost(where the code
+         is getting executed) to global
+
+        var a = 3;
+
+        function foo(){
+            var b = 5;
+            console.log(a);
+            console.log(b);
+        }
+        console.log(a);
+        foo();
+        console.log(b);
+
+    
+    Lexical Scope:- The scope that gets defined at the time of writing the code or authoring the code is lexical scope.
+        Or in other words the code that is available to the compiler at the Lex time.
+        This is also known as Static Scope.
+    
+
+    Function as a Scope:-
+
+        Immediately Invoked Function Expression is the way to create a separate Scope based on function and it automatically
+        calls itself.
+    
+    Block as a Scope:-
+        The block is a code that is enclosed with in curly braces with exception of object.
+
+        {
+            var a = 7;
+            console.log(a);
+        }
+
+            // Above is fake.
+
+        Let Scope/const Scope:- 
+            Let is the keyword that helps us create variables.
+
+           {
+                let a = 7;
+                console.log(a);
+            }
+
+Hoisting:-
+    It is the behaviour that happens at creation time of variables and function which appears to be moved to the top of the 
+    block.
+    It happens only for var & function declaration.
+
+
+The JS Code Execution happens in Two Phases for Every function:-
+
+    - Creation Phase
+    - Execution Phase
+
+Execution Context is created:-
+    Global Execution Context:-
+            - creational Phase:- It decides the data which is available for current Context.
+                - GlobalObject, Globalthis.
+                - Hoisting process happens
+            - execution phase:- Actual execution of code happens
+
+    Execution Context:-
+            - creational Phase:- It decides the data which is available for current Context.
+                - this, arguments. 
+                - Hoisting process happens
+            - execution phase:- Actual execution of code happens

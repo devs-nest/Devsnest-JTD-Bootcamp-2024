@@ -1,0 +1,80 @@
+Task #1:-
+        What will be the output of below code snippet?
+
+            var a = 7;
+
+            function someFunc(c){
+                b = a + c;
+                console.log(b);
+            }
+
+            someFunc(2);
+
+Task #2:-
+    What will be the output of below code snippet & why?
+
+        var a = 8;
+
+        printA(a);
+
+        var printA = function(a){
+            console.log(a);
+        }
+
+Task #3:-
+    What is going to happen when you run the code mentioned below?
+        a()
+        function a(){
+            console.log("I'm function a.");
+        }
+
+        function a(){
+            console.log("I'm also function a");
+        }
+
+Task #4:-
+    What will be output of the below code & why?
+        var favFruit = "Banana";
+
+        var eatAndSay = function (){
+            console.log("My Fav. fruit is ", favFruit);
+            var favFruit = "Coconut";
+            console.log("Again Fav. Fruit is ", favFruit);
+        };
+
+        eatAndSay();
+
+Task #5:-
+    What will be returned in this execution?
+        function outerFunc() {
+            function innerFunc() {
+                return 'I'm inner!';
+            }
+            
+            return innerFunc();
+
+            function innerFunc() {
+                return 'Inner I'm!';
+            }
+        }
+
+        console.log(outerFunc());
+
+Task #6:-
+    What will be the output of below two snippets?
+
+    Snippet #1:
+        function simpleLoop(){
+            for(var i = 5; i < 5; i++){
+                console.log(i);
+            }
+            console.log(i);
+        }
+
+    Snippet #2:
+         function simpleLoop(){
+            for(let i = 5; i < 5; i++){
+                console.log(i);
+            }
+            console.log(i);
+        }
