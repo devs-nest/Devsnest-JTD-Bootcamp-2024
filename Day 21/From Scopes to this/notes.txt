@@ -1,0 +1,86 @@
+// Scopes
+// Hoisting
+--------------------------------------
+
+// Function Invocation
+
+    // Function Expression
+        var a = function(){
+            console.log('This is function expression');
+        }
+    // Function declaration
+        function india(){
+            console.log('India is a Tropical region.');
+        }
+    // Function Invocation/calling
+
+
+    As soon as a function is invoked it goes through two steps:-
+
+    Execution Context (function execution)
+        - declaration phase
+            - Lexical Environment or lexical scope becomes available
+            - Variable Environment will create local variables for the function.
+            - Hoisting
+        (this, arguments).
+        - execution(actual)
+            - The memory gets allocated to the code so as to run.
+
+// [[scope]]:- // Lexically scoped.
+        which means - Lexical Environment or Scope === [[scope]];
+        // [[scope]] example
+        /**
+        * Example of [[scope]]. 
+        * The lexical scope for whatIsMyName2 function is Global Scope/environment.
+        * @returns Name of the person.
+        */
+        function whatIsMyName2(){
+            let a = 'A value';  
+            // Lexical Scope/Environment for LocateMyName function.
+            return function locateMyName(){
+                let b = 'B value';
+                // Lexical Scope/Environment for getMyName function;
+                return function getMyName(){
+                    let c = 'C value';
+                    return 'Subodh sant';
+                }
+            }
+        }
+
+// Some codes:-
+    function getDegreeName() {
+        degreeName = 'Bachelor\'s degree.';
+        return degreeName;
+    }
+    
+// Global Variables:-
+    // Problems with everything available to global is:-
+        - Conflict of names.
+        - 
+
+// IIFE:- Immediately Invoked Function Expression.
+        (function {})();  // function expression.
+
+
+// Objects:-
+        Objects are complex data structure to help developer recognize relation of data along
+        with name.
+        With dot notation you access properties of an object.
+
+    // what it is
+    // How to define
+    // access the properties with dot notation
+    // Square notation.
+
+    // Object constructor.
+
+
+// this...
+    'this' represents an object that the function is member/property of.
+
+    function a (){
+        console.log(this);
+    }
+
+    // Helps us access the object members
+    // Helps us reuse the function

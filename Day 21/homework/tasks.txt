@@ -1,0 +1,50 @@
+Task #1:-
+    What will be the output of below code & why?
+
+    function loopToShowNumbers(){
+        for (var i = 0; i < 7; i++) {
+            console.log(i)
+        }
+
+        console.log('Post-credits scene: ', i);
+    }
+
+    loopToShowNumbers();
+
+
+Task #2:-
+        What will be the output of below code & why?
+
+        function loopToShowNumbers(){
+            for (let i = 0; i < 7; i++) {
+                console.log(i)
+            }
+
+            console.log('Post-credits scene: ', i);
+        }
+
+    loopToShowNumbers();
+
+
+Task #3:-
+
+    What will be the output of below code and why?
+
+    var student1 = {
+        name: 'Stud1',
+        programmingLanguage: 'JavaScript',
+        code() {
+            console.log(this.name + ' is coding in ', this.programmingLanguage);
+        }
+    };
+
+    var student2 = {
+        name: 'Stud2',
+        programmingLanguage: 'JavaScript',
+        code() {
+            return function () { console.log(this.name + ' is coding in ', this.programmingLanguage); }
+        }
+    }
+
+    student1.code();
+    student2.code()();
