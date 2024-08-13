@@ -1,0 +1,23 @@
+Task #1
+    Fix the code mentioned below to return name of student object.
+
+    const student = {
+        name: 'Shiva',
+        getName() {
+            return this.name;
+        }
+    };
+    
+    const fetchNameofStudent = student.getName.bind(student);
+
+    console.log('Name of the student is', fetchNameofStudent());
+
+Task #2
+
+    You need to insert the elements of arr2 to arr1 using concepts known
+
+    const arr1 = [1, 2, 3, 4, 5];
+    const arr2 = [6, 7, 8, 9, 10];
+    arr1.push(arr2);
+
+    // expected output in arr1 is [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
