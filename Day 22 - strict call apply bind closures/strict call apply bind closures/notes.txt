@@ -1,0 +1,29 @@
+Use Strict:-
+    this is a directive which tells JS engine to apply stricter rules for compilation so as to avoid common
+    runtime mistakes which may lead to improper functional execution and memory issues.
+
+call(), apply() and bind():-
+    This helps us set the context (this) and pass parameters according to a function which uses 'this'.
+
+bind & currying:-
+    Currying is partially passing the arguments so to as to have partial execution and later use the resultant 
+    function for specific purposes.
+
+context vs scope:-
+    Context is dynamic scoping which is for 'this' keyword. In this case how the function invoked matters.
+    Scope is static nature of code which is visible in lexical scoping. In this case where the function is
+    written or code is written matters.
+
+Functions are Objects:-
+Function Constructor:-
+
+Functions are first class citizens:-
+    The functions in javascript can be made to behave like data and can be move around and play with.
+
+Higher Order Functions:-
+    The functions which accepts another function as parameter and/or functions which return another function as a value.
+
+
+Closures:-
+
+    because of Function is First Class Citizen and lexical scope.
