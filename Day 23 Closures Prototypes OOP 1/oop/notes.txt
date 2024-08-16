@@ -1,0 +1,15 @@
+Object Oriented programming:
+
+    - Readable & understandable
+    - Memory efficient
+    - Extensible
+    - Maintainable
+    - DRY (Do not repeat yourself)
+
+    Procedural ==> A better Paradigm
+
+    Two types paradigms:-
+        - Functional programming
+        - Object Oriented Programming
+    
+    

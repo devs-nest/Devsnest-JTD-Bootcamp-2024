@@ -1,0 +1,21 @@
+Prototypes:
+Prototypal Inheritance:-
+    This is the feature by which an object inherits feature of another object in JS.
+    This featuer is unique to JavaScript.
+    Although JavaScript do have class keyword with realease of ES6 but under the hood
+    it is using Prototypal inheritance.
+
+
+                    Object{}
+                    /     \
+                   /       \
+                  /         \
+            Array[]         Function()
+
+
+        const arr = [];
+        arr.__proto__;  // this is special property that points to the prototype of Array contructor function.
+
+    
+    - All functions receive prototype property.
+    
