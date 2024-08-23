@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns:
+    [main-start aside-start] 1fr
+    [aside-end content-start] 2fr
+    [content-end main-end];
+
+  grid-auto-rows: 200px;
+}
+
+.sidebar {
+  background-color: coral;
+  grid-column: aside-start / aside-end;
+}
+
+footer {
+  background-color: royalblue;
+  grid-column: main-start/ main-end;
+}

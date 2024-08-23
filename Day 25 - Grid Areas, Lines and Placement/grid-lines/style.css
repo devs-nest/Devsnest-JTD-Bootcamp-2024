@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px 100px);
+}
+
+.first {
+  background-color: palegreen;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.second {
+  background-color: pink;
+  /* short-hand for grid-row-start and grid-row-end */
+  grid-row: 2 / 4;
+  /* short-hand for grid-column-start and grid-column-end */
+  grid-column: 4;
+}

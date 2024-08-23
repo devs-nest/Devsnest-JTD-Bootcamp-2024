@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+header {
+  background-color: royalblue;
+}
+
+section {
+  background: paleturquoise;
+}
+
+footer {
+  background-color: coral;
+}

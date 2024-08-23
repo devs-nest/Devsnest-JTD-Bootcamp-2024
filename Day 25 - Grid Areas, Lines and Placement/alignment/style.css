@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 300px;
+  grid-auto-rows: 200px;
+  height: 600px;
+  border: 2px solid;
+  padding: 16px;
+  gap: 16px;
+  /* grid-auto-flow: column; */
+  /* justify-content: end;
+  align-content: end;
+  justify-items: center;
+  align-items: center; */
+  place-content: start end;
+  place-items: center;
+}
+
+.container > section {
+  background-color: coral;
+}
