@@ -1,0 +1,88 @@
+.clock {
+  height: 300px;
+  width: 300px;
+  background-color: hsl(0, 0%, 0%);
+  border-radius: 50%;
+  position: relative;
+  margin: 100px auto;
+  border: 8px solid hsl(0, 34%, 27%);
+}
+
+.numbers > span {
+  position: absolute;
+  color: #fff;
+}
+
+.tweleve {
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+}
+
+.six {
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nine {
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+}
+
+.three {
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+}
+
+.hands {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.hour {
+  height: 32px;
+  width: 4px;
+  border: 1px solid;
+  position: absolute;
+  bottom: 50%;
+  transform-origin: bottom;
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+
+.minute {
+  height: 80px;
+  width: 4px;
+  border: 1px solid;
+  position: absolute;
+  bottom: 50%;
+  transform-origin: bottom;
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+
+.second {
+  height: 96px;
+  width: 2px;
+  background-color: mediumseagreen;
+  position: absolute;
+  bottom: 50%;
+  transform-origin: bottom;
+  border-radius: 8px 8px 0 0;
+}
