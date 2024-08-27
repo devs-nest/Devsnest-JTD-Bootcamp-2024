@@ -131,3 +131,4 @@ dist
 
 # vs code directory
 .vscode
+.DS_Store
