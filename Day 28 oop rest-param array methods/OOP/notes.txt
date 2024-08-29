@@ -1,0 +1,11 @@
+// Contructor Functions
+
+// OOP
+    Encapsulation:
+        Putting data and functions together in a Unit.
+    Abstraction:-
+        Showing only necessary details to the consumer of the code.
+    Inheritance:-
+        This is using available data and functionalities to define new data and functionalities.
+    Polymorphism:-
+        Multiple forms of functionalities available to be used in a unit.
