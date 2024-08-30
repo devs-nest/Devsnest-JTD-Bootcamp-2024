@@ -1,0 +1,34 @@
+// Array.prototype.reduce
+    This is an instance method of Array which takes a callback function that is invoked for every element of an array
+    and result of execution of the callback is passed as an argument to next iteration.
+
+// class
+// static fields
+// private fields
+
+// Object.keys()
+
+// Object.entries()
+
+// Object.values()
+
+// Object.defineProperty()
+
+// Map
+
+// Asynchronous Programming
+
+    how does js works?
+        // call stack
+
+        // Memory heap
+
+        // event loop
+
+
+    // async await
+
+
+
+
+
