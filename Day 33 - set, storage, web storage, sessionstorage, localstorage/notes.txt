@@ -1,0 +1,22 @@
+// Set DataStructure
+
+    Set is a data structure that allows user to store collection of data or set of values.
+    The values are unique or may not be repeated.
+
+// Storage
+
+
+    // Personalization: User preference
+    // Session Management
+    // Offline assets
+    // Tracking: Certain information when user comes next-time or gain on the website.
+
+    // cookies
+
+
+    // Web Storage
+
+        // session Storage
+        // local storage
+
+    // Databases
