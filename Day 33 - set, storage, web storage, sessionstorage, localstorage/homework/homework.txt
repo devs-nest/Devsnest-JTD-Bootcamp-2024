@@ -1,0 +1,8 @@
+Task 1:-
+    Go throught the The Auto Expo code and try to implement on your own using it as a reference.
+
+Task 2:-
+    Add a Leave Expo button near Enter Expo button:-
+    - Leave button should get enabled only when User has Entered the Expo.
+    - Brain storm and decide on the funcitonality that should be there on the Click of Leave button.
+    - Implement that functionality.
