@@ -1,0 +1,36 @@
+// Modules in JavaScript
+
+Background:- Division of complex and bix code in meaninful functional and technical chunks is module.
+
+    Earlier Modules system
+        - AMD -  
+        - CommonJS - NodeJS
+        - UMD - Works with both AMD and CommonJS
+
+ES6 module system:-
+
+What is Module?
+    Simply a .js file itself acts like a module.
+
+    We can have a code in a file that is stratetically exposing only what it is intended to expose.
+
+    - export:- export keyword is used by the module to expose the public functionality to the world or consumer.
+        We can export the top level function, variables, classes etc.
+    - import:- import keyword is used by the module that wants to consume the exported functionality.
+
+    Use Strict by default:-
+
+    Modules are loaded with defer:-
+
+    Basic of Modules:-
+
+    Default Export:-
+        Also this is for compatibility with earlier modules systems like AMD and CommonJS.
+
+    Module objects:-
+        When you say import * <objName>, an object is imported which is a module namespace object.
+        All that is exported from the imported module are the properties of this object.
+        Ex - import * as userModule from './user.js';
+
+    Aggregating Modules:-
+        Combining one module in to another and exposing it from current module.
