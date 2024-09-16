@@ -1,0 +1,46 @@
+.card {
+  width: 200px;
+  height: 400px;
+  border: 1px solid;
+  padding: 16px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 16px;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    cursor: pointer;
+  }
+  .card-header {
+    font-size: 2rem;
+  }
+  .card-body {
+    background-color: grey;
+    color: aliceblue;
+  }
+  .card-footer {
+    text-align: center;
+    & p {
+      color: palegreen;
+    }
+  }
+}
+
+/* .card:hover {
+  cursor: pointer;
+} */
+
+/* .card > .card-header {
+  font-size: 2rem;
+} */
+
+/* .card .card-body {
+  background-color: grey;
+  color: aliceblue;
+}
+
+.card .card-footer {
+  text-align: center;
+} */
