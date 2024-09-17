@@ -16,10 +16,10 @@
   .card-header {
     font-size: 2rem;
   }
-  .card-body {
+  /* .card-body {
     background-color: grey;
     color: aliceblue;
-  }
+  } */
   .card-footer {
     text-align: center;
     & p {
@@ -36,11 +36,27 @@
   font-size: 2rem;
 } */
 
-/* .card .card-body {
+.card .card-body {
   background-color: grey;
   color: aliceblue;
 }
 
-.card .card-footer {
+/* .card .card-footer {
   text-align: center;
-} */
+}  */
+
+#a > p,
+section > p {
+  color: blue;
+}
+
+#a,
+section {
+  & p {
+    color: blue;
+  }
+}
+
+.foo p {
+  color: red;
+}
