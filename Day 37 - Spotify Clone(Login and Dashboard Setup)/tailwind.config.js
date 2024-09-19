@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./src/**/*.{js,html}",
-  ],
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "spotify-green": "#1ed760",
+        "base": "#121212",
+        "secondary": "#1f1f1f",
+        "subdued": "#b3b3b3",
+        "gray": "#393939",
+      }
+    },
   },
   plugins: [],
 }

@@ -1,0 +1,28 @@
+.grid-areas-dashboard {
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "global-nav global-nav global-nav"
+    "left-sidebar main-view right-sidebar"
+    "now-playing now-playing now-playing";
+}
+
+#global-nav {
+  grid-area: global-nav;
+}
+
+#left-sidebar {
+  grid-area: left-sidebar;
+}
+
+#main-view {
+  grid-area: main-view;
+}
+
+#now-playing {
+  grid-area: now-playing;
+}
+
+#right-sidebar {
+  grid-area: right-sidebar;
+}
