@@ -1,0 +1,52 @@
+.grid-overflow-none {
+  grid-auto-rows: 0;
+  grid-auto-columns: 0;
+}
+
+.grid-areas-dashboard {
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "global-nav global-nav global-nav"
+    "left-sidebar main-view main-view"
+    "now-playing now-playing now-playing";
+}
+
+#global-nav {
+  grid-area: global-nav;
+}
+
+#left-sidebar {
+  grid-area: left-sidebar;
+
+  @apply w-[200px] rounded-md;
+}
+
+#main-view {
+  grid-area: main-view;
+  @apply rounded-md bg-secondary p-2;
+}
+
+#now-playing {
+  grid-area: now-playing;
+}
+
+#right-sidebar {
+  grid-area: right-sidebar;
+  @apply rounded-md bg-secondary;
+}
+
+.track:hover .track-no {
+  @apply invisible;
+}
+
+.track:hover .play {
+  @apply visible;
+}
+
+.track.playing {
+  .track-no,
+  .song-title {
+    @apply text-spotify-green;
+  }
+}
