@@ -1,0 +1,22 @@
+{
+  "name": "npm-test-proj",
+  "version": "1.0.0",
+  "description": "This is a sample project to learn npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Learn",
+    "software",
+    "programming"
+  ],
+  "author": "subodh sant",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "lodash": "^4.0.0"
+  }
+}
