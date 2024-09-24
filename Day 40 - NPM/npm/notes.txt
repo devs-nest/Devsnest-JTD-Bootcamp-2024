@@ -1,0 +1,68 @@
+// npm
+
+Node Package Manager:-
+
+Package manager:-
+    It is a software that manages other softwares libraries or applications for
+    your project/application. It provides set of tools/softwares which can install
+    update, configure or uninstall dependencies.
+
+    It is a software that manages dependencies for your project.
+    It provides a way to install/uninstall dependencies for your project.
+
+
+    - Finds/locates the package over the network.
+    - Checking the packages for any vulnerability
+    - Downloading the package/dependency and also put it at a place where your project needs it.
+    - Writing the code which will include the package in your application.
+    - Repeating above steps for all the sub-dependencies.
+    - Removal of dependencies files explicitely when you command it to.
+
+npm:- package manader based on nodejs.
+
+
+Package Registry:- For a package manager to work properly they need to know where to look
+for package so that it can download them for your project.
+
+    npmjs.com
+
+NPM Project setup:-
+    npm init
+
+Install and Uninstall of Packages:-
+
+    Dependencies can be installed in two ways by npm:-
+        - Global:- is a common location with in the system but not part of any individual project.
+            but if project references that package with the same version then it will use Global one.
+        - Local:- is a package which is installed locally within the project application root folder.
+    
+    npm install:- is for installation of package(s)
+
+    npm uninstall:- this is to uninstall package
+
+
+    All the packages are having a key value pair in package.json dependencies or dev dependencies.
+
+    For Example:-
+        npm install lodash:- it will download and install the latest version
+        "lodash": "^4.17.21"
+
+        The value in key-value above represents a version.
+
+        The version in npm is based on semver algorithm.
+            MAJOR.MINOR.PATCH
+
+            MAJOR:- is generally a big funtional release and possibly breaking the older version means
+                incompatible with older version.
+            MINOR:- is generally a smaller functionality which may not breaking and competible with
+            earlier versions.
+            PATCH:- Bug Fixes.
+
+
+    ^:- "Compatible with major version"
+        It will automatically update you to all the future patch and minor version that are backwards
+        compatible. It doesn't increment the major version.
+
+    ~:- "Approximately equivalent to version"
+        It will update the application with future patch versions only which are backwards compatible.
+        it doesn't increment major and minor versions.
