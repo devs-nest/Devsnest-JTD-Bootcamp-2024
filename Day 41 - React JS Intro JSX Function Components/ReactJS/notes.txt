@@ -1,0 +1,23 @@
+// ReactJS
+
+    React is a javascript library which helps developers to build User Interfaces for both Web
+    & Native.
+
+
+// JSX:-
+    JavaScript Extension
+
+// Interpolation:
+    It is the mechanism by which you can use javascript code like
+    variables functions with in the JSX of react.
+
+// Fragment:-
+    It is a element or tag that allows multiple top levels elements
+    to be part of JSX.
+
+// Event Binding:-
+    Regular events of any DOM element can be bound to a functions
+    with the help of curly braces.
+
+// Function Components:-
+    Function component is a function that returns JSX
