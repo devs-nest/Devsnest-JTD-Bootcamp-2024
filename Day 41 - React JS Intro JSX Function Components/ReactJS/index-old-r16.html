@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Introduction</title>
+</head>
+<body>
+
+    <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+    
+    <div id="rootElement"></div>
+    <script type="text/javascript">
+        // const rootElement = document.createElement("div");
+        // rootElement.id = "rootElementId";
+        // rootElement.className = "i-am-root";
+        // rootElement.textContent = "The Root";
+    
+        const rootElement = document.getElementById("rootElement");
+        // const childElement = document.createElement("span");
+        // childElement.id="childElementId";
+        // childElement.className= "container";
+        // childElement.textContent = "Hello, Students!";
+
+        // rootElement.appendChild(childElement);
+
+        //document.body.appendChild(rootElement);
+
+
+        // react
+
+        const element = React.createElement('div', {
+            className: 'container',
+            children: ["Hello, Students"]
+        });
+
+
+        ReactDOM.render(element, rootElement);
+
+    </script>
+</body>
+</html>
