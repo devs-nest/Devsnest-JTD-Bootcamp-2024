@@ -1,0 +1,10 @@
+// Error boundaries:-
+    Is a way to create boundaries for unhandled exception in react application so as to handle them gracefully.
+    You may have application level and component level error boundaries.
+
+    // https://www.npmjs.com/package/react-error-boundary
+
+
+// useReducer hook
+
+// useContext hook

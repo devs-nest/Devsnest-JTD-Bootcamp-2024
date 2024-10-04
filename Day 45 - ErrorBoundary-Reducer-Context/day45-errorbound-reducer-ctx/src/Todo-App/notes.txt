@@ -1,0 +1,5 @@
+// Functionality
+
+- To be able to list all the Todos 
+- Facility to Add new Todo with the help of user input.
+- Facility to Delete the Todo from list.
