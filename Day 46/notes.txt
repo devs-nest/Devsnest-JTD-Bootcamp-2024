@@ -1,0 +1,2 @@
+// Statemanagement using useReducer and useContext.
+// Routing using react 
